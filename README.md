@@ -10,6 +10,8 @@ K8S context selector
 ## Installation ##
 
 ```
+git clone git@github.com:grifonas/kkonfig.git
+cd kkonfig
 mkdir ~/bin
 mkdir ~/.bash_completion
 install ./kkonfig ~/bin/kkonfig
