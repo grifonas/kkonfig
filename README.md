@@ -12,7 +12,7 @@ K8S context selector
 ```
 mkdir ~/bin
 mkdir ~/.bash_completion
-install ./kkonfig ~/.bin/kkonfig
+install ./kkonfig ~/bin/kkonfig
 cp kkonfig-completion ~/.bash_completion/ 
 ```
 
