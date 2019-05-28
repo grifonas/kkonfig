@@ -23,4 +23,12 @@ echo "source ~/.bash_completion/kkonfig-completion" >> ~/.bash_profile
 
 # Usage #
 
-```kkonfig NAME OF YOUR CONTEXT```
+- Changing K8S context: 
+
+```kkonfig NAME_OF_YOUR_CONTEXT```
+
+- Listing K8S contexts:
+
+```kkonfig```
+
+
