@@ -1,8 +1,25 @@
 # kkonfig
 K8S context selector
 
-# Installation #
+## Prerequisites ##
 
+- `kubectl`
+- `awk`
+- `sed`
+
+## Installation ##
+
+```
+mkdir ~/bin
+mkdir ~/.bash_completion
+install ./kkonfig ~/.bin/kkonfig
+cp kkonfig-completion ~/.bash_completion/ 
+```
+
+```
+echo "#KKONFIG Completion:" >> ~/.bash_profile
+echo "source ~/.bash_completion/kkonfig-completion" >> ~/.bash_profile
+```
 
 # Usage #
 
